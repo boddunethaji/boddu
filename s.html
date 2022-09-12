@@ -1,0 +1,30 @@
+<html>
+<script>
+function add()
+{
+var a=parseInt(document.getElementById("first").value);
+var b=parseInt(document.getElementById("second").value);
+var sum=a+b;
+document.getElementById("out").value=sum;
+}
+
+</script>
+<head>
+<style>
+div{
+background-color:lightpink;
+width:300px;
+padding:50px;
+margin:20px;
+}
+</style>
+</head>
+<body>
+<title>Addition of two numbers</title>
+<div><h style="color:blue"><p align = "center">enter first number:<input id="first"><br><br>
+enter second number:<input id="second"><br><br>
+<button onclick="add()">Add</button><br><br>
+<input id="out"></h></p></div>
+</body>
+</html>
+   
